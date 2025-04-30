@@ -1,0 +1,55 @@
+:root {
+  --primary-bg: #121212;
+  --secondary-bg: #1e1e1e;
+  --accent-color: #4a90e2;
+  --text-primary: #ffffff;
+  --text-secondary: #b3b3b3;
+  --error-color: #e57373;
+  --success-color: #81c784;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary-bg);
+  color: var(--text-primary);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #3a7bc8;
+}
+
+input, textarea {
+  background-color: var(--secondary-bg);
+  border: 1px solid #333;
+  border-radius: 4px;
+  color: var(--text-primary);
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+input:focus, textarea:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
