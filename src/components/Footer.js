@@ -16,9 +16,9 @@ export default function Footer() {
             <h3 style={styles.footerHeading}>Contributors: </h3>
             <div>
               <ul style={styles.socialLinks}>
-                <li><a href="https://twitter.com" style={styles.socialLink}>Archit Srivastava</a></li>
-                <li><a href="https://facebook.com" style={styles.socialLink}>Chaitanya Shekhar Pandey</a></li>
-                <li><a href="https://instagram.com" style={styles.socialLink}>Ayush Kumar Tank</a></li>
+                <li><a href="https://github.com/archit-417" target='blank' style={styles.socialLink}>Archit Srivastava</a></li>
+                <li><a href="https://github.com/Chaitanya-Shekhar-Pandey" target='blank' style={styles.socialLink}>Chaitanya Shekhar Pandey</a></li>
+                <li><a href="https://github.com/ayushtank2003" target='blank' style={styles.socialLink}>Ayush Kumar Tank</a></li>
               </ul>            
             </div>
           </div>

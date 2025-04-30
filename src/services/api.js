@@ -1,4 +1,3 @@
-// src/services/api.js
 import { HfInference } from '@huggingface/inference'
 
 const SYSTEM_PROMPT = `
